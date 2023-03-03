@@ -1,0 +1,50 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/open-sans-v28-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Open Sans Italic';
+    src: url('/fonts/open-sans-v28-latin-italic.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Open Sans 700';
+    weight: 700;
+    src: url('/fonts/open-sans-v28-latin-700.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Open Sans 700 Italic';
+    weight: 700;
+    src: url('/fonts/open-sans-v28-latin-700italic.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Open Sans 600';
+    weight: 600;
+    src: url('/fonts/open-sans-v28-latin-600.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Open Sans 600 Italic';
+    weight: 600;
+    src: url('/fonts/open-sans-v28-latin-600italic.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'League Gothic';
+    src: url('/fonts/leaguegothic.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Ailerons';
+    src: url('/fonts/Ailerons-Typeface.otf') format('otf');
+  }
+}
+
+body {
+  font-family: "Open Sans";
+}
